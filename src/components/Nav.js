@@ -29,7 +29,7 @@ const Nav = () => {
           >
             <BiUser />
           </Link>
-          <Link
+          {/* <Link
             to="services"
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
             activeClass="active"
@@ -37,7 +37,7 @@ const Nav = () => {
             spy={true}
           >
             <BsClipboardData />
-          </Link>
+          </Link> */}
           <Link
             to="work"
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
