@@ -37,7 +37,7 @@ const Work = () => {
           >
             <h2 className="h2 text-accent mb-4 mt-6">Experiências</h2>
             <motion.div
-              variants={fadeIn("right", 0.7)}
+              variants={fadeIn("right", 0.5)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ onde: false, amount: 0.3 }}
@@ -71,23 +71,16 @@ const Work = () => {
                 </div>
               </h3>
               <p className="mb-6">
-                Fui um Assistente Administrativo com sólida atuação no setor de
-                T.I., realizando manutenção de hardware, software e impressoras.
-                Minha experiência abrange o período de julho de 2021 a julho de
-                2022. Durante esse período, fui responsável por garantir o
-                funcionamento adequado de computadores e dispositivos por meio
-                da manutenção de hardware e pela integridade dos sistemas
-                através da manutenção de software. Além disso, também cuidei da
-                manutenção de impressoras, assegurando sua eficiência
-                operacional. Minhas habilidades técnicas e dedicação me
-                permitiram contribuir para o bom funcionamento das operações de
-                T.I. e estou em constante busca por aprimoramento para
+                Fui Assistente Administrativo com sólida atuação no setor de T.I., realizando manutenção de hardware, software e impressoras.
+                Durante esse período, fui responsável por garantir o
+                funcionamento adequado de computadores, impressoras e dispositivos por meio da manutenção de hardware e pela integridade dos sistemas através da manutenção de software. 
+                Estando em constante busca por aprimoramento para
                 acompanhar as inovações tecnológicas e oferecer soluções cada
                 vez mais eficientes.
               </p>
             </motion.div>
             <motion.div
-              variants={fadeIn("left", 0.8)}
+              variants={fadeIn("left", 0.6)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ onde: false, amount: 0.3 }}

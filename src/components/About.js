@@ -16,7 +16,7 @@ const About = () => {
         <div className="flex flex-col gap-y-10 lg:flex-row justify-center text-center items-center lg:gap-x-20 lg:gap-y-0 h-screen">
           {/* <div className="flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-soft-light bg-top"></div> */}
           <motion.div
-            variants={fadeIn("up", 0.3)}
+            variants={fadeIn("down", 0.3)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ onde: false, amount: 0.3 }}
@@ -30,11 +30,9 @@ const About = () => {
               Durante o meu desenvolvimento, tive a oportunidade de interagir
               com diversas tecnologias e linguagens de programação, como Swagger
               para documentação de APIs, Git para controle de versão, RabbitMQ
-              para mensageria assíncrona, Spring Boot para desenvolvimento de
-              aplicações Java, Node.js para criação de aplicações do lado do
-              servidor, Python para desenvolvimento de jogos e aplicações
-              científicas, além de tecnologias front-end como Bootstrap,
-              JavaScript, React.js, HTML5, CSS3 e Tailwind CSS para criar
+              para mensageria, Spring Boot e Node.js para desenvolvimento de
+              aplicações, Python para desenvolvimento de jogos, além de tecnologias front-end como Bootstrap,
+               React.js, HTML5, CSS3 e Tailwind CSS para criar
               interfaces web atraentes e responsivas. Ao longo dessa jornada,
               também adquiri experiência com bancos de dados NoSQL, como o
               MongoDB, e bancos de dados relacionais, como o MySQL e PostgreSQL.
@@ -101,7 +99,9 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center justify-center">
-              <button className="btn btn-lg">Contato</button>
+              <a href='#contact'>
+               <button className="btn btn-lg">Contato</button> 
+              </a>
               <a
                 href="https://github.com/MatheusSouSoa?tab=repositories"
                 className="text-gradient btn-link"
