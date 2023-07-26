@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { FiDownload } from "react-icons/fi";
 
-const PDF_FILE_URL = "http://localhost:3000/Curriculo_Matheus.pdf";
+const PDF_FILE_URL = "https://matheus-sousoa.vercel.app/Curriculo_Matheus.pdf";
 
 const Work = () => {
   
@@ -94,7 +94,7 @@ const Work = () => {
               className="flex-1"
             >
               <h3 className="h3 mb-4">
-                Cartão VerdeCard (Lojas Quero-Quero) <br />
+                VerdeCard (Lojas Quero-Quero) <br />
                 <div className="flex justify-center gap-x-2">
                   <span className="flex gap-1 text-[15px] justify-center item">
                     Julho/{" "}

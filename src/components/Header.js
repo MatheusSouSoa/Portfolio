@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../assets/LogoSite.png'
 import { FiDownload } from 'react-icons/fi'
 
-const PDF_FILE_URL = "http://localhost:3000/Curriculo_Matheus.pdf";
+const PDF_FILE_URL = "https://matheus-sousoa.vercel.app/Curriculo_Matheus.pdf";
 
 const Header = () => {
 
