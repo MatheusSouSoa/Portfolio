@@ -5,7 +5,19 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import { FiDownload } from "react-icons/fi";
 
+const PDF_FILE_URL = "http://localhost:3000/Curriculo_Matheus.pdf";
+
 const Work = () => {
+  
+  const downloadFileAtUrl = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
 
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -59,10 +71,10 @@ const Work = () => {
                 </div>
               </h3>
               <p className="mb-6">
-                Fui um Assistente Administrativo com sólida atuação no setor de T.I.,
-                realizando manutenção de hardware, software e impressoras. Minha
-                experiência abrange o período de julho de 2021 a julho de 2022.
-                Durante esse período, fui responsável por garantir o
+                Fui um Assistente Administrativo com sólida atuação no setor de
+                T.I., realizando manutenção de hardware, software e impressoras.
+                Minha experiência abrange o período de julho de 2021 a julho de
+                2022. Durante esse período, fui responsável por garantir o
                 funcionamento adequado de computadores e dispositivos por meio
                 da manutenção de hardware e pela integridade dos sistemas
                 através da manutenção de software. Além disso, também cuidei da
@@ -105,7 +117,12 @@ const Work = () => {
             </motion.div>
 
             <div className="flex gap-x-8 items-center justify-center">
-              <button className="flex items-center gap-x-2 px-4 py-4 btn btn-sm mb-5">
+              <button
+                className="flex items-center gap-x-2 px-4 py-4 btn btn-sm mb-5"
+                onClick={() => {
+                  downloadFileAtUrl(PDF_FILE_URL);
+                }}
+              >
                 Baixar Currículo
                 <FiDownload size={30} />
               </button>
