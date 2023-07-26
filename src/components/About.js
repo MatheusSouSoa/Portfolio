@@ -70,10 +70,15 @@ const About = () => {
                 </div>
               </div>
               <div>
-                <div className="text-[40px] font-tertiary text-gradient mb-2">
+                <div className="flex text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? (
                     <div>
-                      <CountUp start={-1} end={9} duration={4} />+
+                      <CountUp start={-1} end={8} duration={4} />,
+                    </div>
+                  ) : null}
+                  {inView ? (
+                    <div>
+                      <CountUp start={-1} end={9} duration={4} />
                     </div>
                   ) : null}
                 </div>
