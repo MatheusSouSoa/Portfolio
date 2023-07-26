@@ -33,7 +33,7 @@ const Banner = () => {
               <span className="text-white">Sou desenvolvedor </span>
               <TypeAnimation
                 sequence={[
-                  "Back-end em Node.js e Springboot Java",
+                  "Back-end em Node.js e Springboot",
                   1000,
                   "Front-end em React.js",
                   1000,
@@ -51,13 +51,13 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Sou um estudante de 24 anos cursando Sistemas de Informação na
-              Unilasalle, Niterói. Meu foco são projetos em Node.js, React e
-              Spring Boot. No meu portfólio, você pode encontrar mais sobre mim,
-              acessando meu perfil no LinkedIn e também explorar alguns dos meus
-              projetos no GitHub. Apaixonado por tecnologia e sempre em busca de
-              soluções inovadoras. Fique à vontade para conhecer mais sobre o
-              meu trabalho!
+              Sou um estudante de Sistemas de Informação na Unilasalle-RJ,
+              Niterói. Meu foco são projetos em Node.js, React e Spring Boot. No
+              meu portfólio, você pode encontrar mais sobre mim, acessando meu
+              perfil no LinkedIn e também explorar alguns dos meus projetos no
+              GitHub. Apaixonado por tecnologia e sempre em busca de soluções
+              inovadoras. Fique à vontade para conhecer mais sobre o meu
+              trabalho!
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}

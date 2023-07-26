@@ -59,8 +59,19 @@ const Work = () => {
                 </div>
               </h3>
               <p className="mb-6">
-                Assistente administrativo com atuação nos setores de CFTV e T.i,
-                realizando manutenção de hardware, software e impressoras.
+                Fui um Assistente Administrativo com sólida atuação no setor de T.I.,
+                realizando manutenção de hardware, software e impressoras. Minha
+                experiência abrange o período de julho de 2021 a julho de 2022.
+                Durante esse período, fui responsável por garantir o
+                funcionamento adequado de computadores e dispositivos por meio
+                da manutenção de hardware e pela integridade dos sistemas
+                através da manutenção de software. Além disso, também cuidei da
+                manutenção de impressoras, assegurando sua eficiência
+                operacional. Minhas habilidades técnicas e dedicação me
+                permitiram contribuir para o bom funcionamento das operações de
+                T.I. e estou em constante busca por aprimoramento para
+                acompanhar as inovações tecnológicas e oferecer soluções cada
+                vez mais eficientes.
               </p>
             </motion.div>
             <motion.div
