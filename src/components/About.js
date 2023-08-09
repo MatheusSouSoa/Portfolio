@@ -105,7 +105,7 @@ const About = () => {
             </div>
             <div className="flex gap-x-8 items-center justify-center">
               <a href='#contact'>
-               <button className="btn btn-lg">Contato</button> 
+                <button className="btn btn-lg">Contato</button> 
               </a>
               <a
                 href="https://github.com/MatheusSouSoa?tab=repositories"
