@@ -100,7 +100,10 @@ const Work = () => {
                       ) : null}
                     </div>
                   </span>
-                  -
+                  
+  De agosto a novembro, fui responsável pela execução de um projeto fullstack de validação de templates, atuando de forma independente. No backend, desenvolvi a lógica em Node.js e Flask, utilizando Flask com Pandas para validar colunas Excel e assegurar a integridade dos dados. Implementei a autenticação de usuários usando JWT no Node.js, e empreguei tecnologias como TypeORM, Axios, Jest e ESLint.
+  
+  Posteriormente, realizei uma transição para a área de Data Analytics, onde estou atuando em análise de dados, interpretação de resultados e geração de insights estratégicos. 
                   <span className="flex gap-1 text-[15px] justify-center item-center">
                     Até o momento
                   </span>
