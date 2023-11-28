@@ -36,10 +36,6 @@ const About = () => {
               interfaces web atraentes e responsivas. Ao longo dessa jornada,
               também adquiri experiência com bancos de dados NoSQL, como o
               MongoDB, e bancos de dados relacionais, como o MySQL e PostgreSQL.
-              Essas experiências me permitiram enfrentar diversos desafios
-              tecnológicos com confiança, e estou sempre entusiasmado em
-              aprender e aplicar novas habilidades para criar soluções
-              inovadoras e eficientes.
             </p>
             <div className="flex gap-x-6 justify-center items-center lg:gap-x-10 mb-12">
               <div>
