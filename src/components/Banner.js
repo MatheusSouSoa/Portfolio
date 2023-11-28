@@ -33,7 +33,7 @@ const Banner = () => {
               <span className="text-white">Sou desenvolvedor </span>
               <TypeAnimation
                 sequence={[
-                  "Back-end em Node.js e Springboot",
+                  "Back-end em Node.js, Flask e Springboot",
                   1000,
                   "Front-end em React.js",
                   1000,
