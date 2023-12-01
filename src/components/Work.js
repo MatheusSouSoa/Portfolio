@@ -113,7 +113,7 @@ const Work = () => {
               </p>
             </motion.div>
 
-            <div className="flex gap-x-8 items-center justify-center">
+            // <div className="flex gap-x-8 items-center justify-center">
               // <button
               //   className="flex items-center gap-x-2 px-4 py-4 btn btn-sm mb-5"
               //   onClick={() => {
@@ -123,7 +123,7 @@ const Work = () => {
               //   Baixar Currículo
               //   <FiDownload size={30} />
               // </button>
-            </div>
+            // </div>
           </motion.div>
         </div>
       </div>
