@@ -112,16 +112,16 @@ const Work = () => {
   Desde dezembro de 2023 estou alocado no setor de data analytics.
               </p>
             </motion.div>
-             <div className="flex gap-x-8 items-center justify-center">
-              // <button
-              //   className="flex items-center gap-x-2 px-4 py-4 btn btn-sm mb-5"
-              //   onClick={() => {
-              //     downloadFileAtUrl(PDF_FILE_URL);
-              //   }}
-              // >
-              //   Baixar Currículo
-              //   <FiDownload size={30} />
-              // </button>
+             <div className="flex gap-x-8 items-center justify-center mb-20">
+              <button
+                className="flex items-center gap-x-2 px-4 py-4 btn btn-sm mb-5"
+                onClick={() => {
+                  downloadFileAtUrl(PDF_FILE_URL);
+                }}
+              >
+                Baixar Currículo
+                <FiDownload size={30} />
+              </button>
             </div>
           </motion.div>
         </div>
