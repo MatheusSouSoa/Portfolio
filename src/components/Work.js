@@ -112,6 +112,16 @@ const Work = () => {
   Desde dezembro de 2023 estou alocado no setor de data analytics.
               </p>
             </motion.div>
+            //aqui
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Work;
+
 
             // <div className="flex gap-x-8 items-center justify-center">
               // <button
@@ -124,11 +134,3 @@ const Work = () => {
               //   <FiDownload size={30} />
               // </button>
             // </div>
-          </motion.div>
-        </div>
-      </div>
-    </section>
-  );
-};
-
-export default Work;
